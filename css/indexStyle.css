@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth ;
+}
+
+body {
+	background: linear-gradient( #ffa500, #cd7d2f);
+	height: 100vh;
+}
+
+/* Nav */
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-dark {
+    background-color: #040315 !important;
+
+}
+
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid white;
+}
+
+.navbar-toggler-icon {
+    filter:invert()
+
+}
+
+.cusSticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav  .nav-item > .nav-link {
+    font-weight: 500 !important;
+}
+    
+.navbar-nav  .nav-item > .nav-link {
+    color: #b5a8a8 !important;
+    padding: 6px 15px;
+    border-radius: 20px;
+
+}
+
+.navbar-nav  .nav-item > .active {
+    color: white !important
+}
+
+.navbar-nav  .nav-item > .nav-link:hover {
+    color: #2b1055 !important;
+    background-color: #fff; 
+
+}
+
+.navbar-nav  li .active {
+    font-weight: bolder !important;
+    text-transform: uppercase;
+}
+
+
+    
+.navbar-brand img {
+    max-height: 30px !important;
+}
+
+/* Landscape image background */
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    pointer-events: none;
+
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    align-content: center;
+}
+
+#landscape-parallax::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #040315, transparent);
+    z-index: 100;
+}
+
+#sky-landscape {
+    align-self: center;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    min-width: 800px;
+
+
+}
+
+#mountain-landscape {
+    min-width: 1028px;
+    width: 100%;
+    height: auto;
+}
+
+#forest-landscape {
+    width: 105%;
+
+}
+
+
+#text {
+    position: absolute;
+    color: #fff;
+    white-space: nowrap; 
+    font-size: 4.2rem;
+    z-index: 9;
+    color: #2219aa;
+    text-shadow: 0 0 3px white;
+    right: -500px;
+    top:50%;
+
+}
+
+/* Section content */
+#backgroundcolor-section-home {
+    background-color: #040315;
+
+}
+
+    /* grid layout style */
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 3; 
+        
+    }
+    .div2 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        padding: 0 20px;
+    }
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        padding: 0 20px;
+    }
+
+.btn-module {
+    border-radius: 40px;
+    border:solid 2px #7f2f50;
+    background-color: transparent;
+    transition: transform .2s; /* Animation */
+
+}   
+
+.btn-module:hover {
+    background-color: #7f2f50;
+    transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */}    
+        
+/* footer  */
+.footer{
+    background-color: #7f2f50;
+    color: white;
+}
+
+.list-group-item:hover {
+    color: #cd7d2f;
+
+}
