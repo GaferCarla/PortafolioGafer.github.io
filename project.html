@@ -63,171 +63,204 @@
         <div class=" pb-5" id="rrhh"> 
             <h1 class="mb-2 text-white">Recursos humanos y CRM</h1>
             <hr class="text-white mb-4">
-            <div class="d-lg-flex"> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card border-0 border-0 h-100">
                     <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/pacman.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">PacMen</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <div class="btn btn-primary upp text-uppercase py-2 px-4 ">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/eyes.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Eye Exercise</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <div class="btn btn-primary upp text-uppercase py-2 px-4  ">IR
-                                <span class=" ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/real-time-bus.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Real Time Bus Tracking</p> 
-                        <p class="text-muted mt-2">Proyecto para marcar las paradas en ruta de autobús de la línea 1 y vista de los principales atractivos cercanos</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3"> 
-                            <div class="btn btn-primary text-uppercase">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                
-            </div> 
+                    <img class="gray-image-hover card-img-top" src="images/pacman.gif" alt="pacman, repos, javascript, MIT"> 
+
+                    <div class="card-body content">
+                      <h5 class="card-title mt-2">PacMen</h5>
+                      <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en agregar pacman a través del botón de "ADD" en una posición aleatoria. Iniciar la animación con el botón de "START" y detenerlo con el botón de "STOP".</p>
+                    </div>
+                    <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 pb-3">
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
+
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/eyes.PNG" alt="eyes, repos, javascript,css, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Eye Exercise</h5>
+                        <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en permitir el movimiento del ojo a través del evento onmousemove. Se han añadido características extras que permiten la customización de la apariencia de un avatar vectorizado.</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/real-time-bus.PNG" alt="bus, Tracking, repos, javascript, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Real Time Bus Tracking</h5>
+                        <p class="card-text text-muted mt-2">Proyecto para marcar las paradas en ruta de autobús de la línea 1 y vista de los principales atractivos cercanos</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/-MITRealTimeBus/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/-MITRealTimeBus">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
 
         <!-- Repositorios-proyectos -->
         <div class="pb-5" id="repos"> 
             <h1 class="mb-2 text-white">Últimos repositorios</h1>
             <hr class="text-white mb-4">
-            <div class="d-lg-flex"> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card border-0 h-100">
                     <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/pacman.gif" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">PacMen</p> 
-                        <p class="text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en agregar pacman a través del botón de "ADD" en una posición aleatoria. Iniciar la animación con el botón de "START" y detenerlo con el botón de "STOP" </p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <a class="btn btn-primary upp text-uppercase py-2 px-4 " href="https://gafercarla.github.io/Pacmen/">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </a> 
+                    <img class="gray-image-hover card-img-top" src="images/pacman.gif" alt="pacman, repos, javascript, MIT"> 
 
-                            <a class="btn btn-primary upp text-uppercase py-2 px-4 " href="https://github.com/GaferCarla/Pacmen">REPOS
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </a> 
-                        </div> 
+                    <div class="card-body content">
+                      <h5 class="card-title mt-2">PacMen</h5>
+                      <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en agregar pacman a través del botón de "ADD" en una posición aleatoria. Iniciar la animación con el botón de "START" y detenerlo con el botón de "STOP".</p>
+                    </div>
+                    <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/eyes.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Eye Exercise</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <div class="btn btn-primary upp text-uppercase py-2 px-4  ">IR
-                                <span class=" ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/real-time-bus.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Real Time Bus Tracking</p> 
-                        <p class="text-muted mt-2">Proyecto para marcar las paradas en ruta de autobús de la línea 1 y vista de los principales atractivos cercanos</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3"> 
-                            <a class="btn btn-primary upp text-uppercase py-2 px-4 " href="https://gafercarla.github.io/-MITRealTimeBus/">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </a> 
-
-                            <a class="btn btn-primary upp text-uppercase py-2 px-4 " href="https://github.com/GaferCarla/-MITRealTimeBus">REPOS
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </a> 
-                        </div> 
-                    </div> 
-                </div> 
-                
-            </div> 
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/eyes.PNG" alt="eyes, repos, javascript,css, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Eye Exercise</h5>
+                        <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en permitir el movimiento del ojo a través del evento onmousemove. Se han añadido características extras que permiten la customización de la apariencia de un avatar vectorizado.</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/real-time-bus.PNG" alt="bus, Tracking, repos, javascript, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Real Time Bus Tracking</h5>
+                        <p class="card-text text-muted mt-2">Proyecto para marcar las paradas en ruta de autobús de la línea 1 y vista de los principales atractivos cercanos</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/-MITRealTimeBus/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/-MITRealTimeBus">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
 
         <!-- Excercise-->
         <div class=" pb-5" id="others"> 
             <h1 class="mb-2 text-white">MIT-exercises</h1>
             <hr class="text-white mb-4">
-            <div class="d-lg-flex"> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card border-0 h-100">
                     <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/pacman.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">PacMen</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <div class="btn btn-primary upp text-uppercase py-2 px-4 ">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/eyes.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Eye Exercise</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3 "> 
-                            <div class="btn btn-primary upp text-uppercase py-2 px-4  ">IR
-                                <span class=" ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                <div class="card border-0 me-lg-4 mb-lg-0 mb-4"> 
-                    <div class="backgroundEffect"></div> 
-                    <div class="pic"> 
-                        <img class="gray-image-hover" src="images/real-time-bus.PNG" alt=""> 
-                    </div> 
-                    <div class="content"> 
-                        <p class="h-1 mt-4 mb-0">Real Time Bus Tracking</p> 
-                        <p class="text-muted mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet consequuntur quaerat tenetur! Cumque excepturi ipsa voluptate necessitatibus corrupti voluptatibus, doloribus, explicabo cupiditate sit ducimus exercitationem recusandae quos autem nam.</p> 
-                        <div class="d-flex align-items-center justify-content-between mt-3"> 
-                            <div class="btn btn-primary text-uppercase">IR
-                                <span class="ms-2 fas fa-arrow-right"></span>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div> 
-                
-            </div> 
+                    <img class="gray-image-hover card-img-top" src="images/pacman.gif" alt="pacman, repos, javascript, MIT"> 
+
+                    <div class="card-body content">
+                      <h5 class="card-title mt-2">PacMen</h5>
+                      <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en agregar pacman a través del botón de "ADD" en una posición aleatoria. Iniciar la animación con el botón de "START" y detenerlo con el botón de "STOP".</p>
+                    </div>
+                    <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
+
+                        <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                            <span class="ms-2 fas fa-arrow-right"></span>
+                        </a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/eyes.PNG" alt="eyes, repos, javascript,css, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Eye Exercise</h5>
+                        <p class="card-text text-muted mt-2">Ejercio compuesto 75% de javascript.<br>Consiste principalmente en permitir el movimiento del ojo a través del evento onmousemove. Se han añadido características extras que permiten la customización de la apariencia de un avatar vectorizado.</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/Pacmen/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/Pacmen">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0 h-100">
+                      <div class="backgroundEffect"></div> 
+                      <img class="gray-image-hover card-img-top" src="images/real-time-bus.PNG" alt="bus, Tracking, repos, javascript, MIT"> 
+  
+                      <div class="card-body content">
+                        <h5 class="card-title mt-2">Real Time Bus Tracking</h5>
+                        <p class="card-text text-muted mt-2">Proyecto para marcar las paradas en ruta de autobús de la línea 1 y vista de los principales atractivos cercanos</p>
+                      </div>
+                      <div class="card-footer d-flex align-items-center justify-content-between mt-3 pb-3 ">
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4  " id="btn-module" href="https://gafercarla.github.io/-MITRealTimeBus/">IR
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+  
+                          <a class="btn btn-primary upp text-uppercase py-2 px-4 " id="btn-module" href="https://github.com/GaferCarla/-MITRealTimeBus">REPOS
+                              <span class="ms-2 fas fa-arrow-right"></span>
+                          </a> 
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
     </div>
 

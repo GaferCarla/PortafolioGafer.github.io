@@ -251,6 +251,7 @@ z-index: 999;
     z-index: 10;
     overflow: hidden;
     margin: auto;
+
 }
 
 #projects .card .backgroundEffect {
@@ -267,7 +268,7 @@ z-index: 999;
 
 #projects .card:hover .backgroundEffect {
     bottom: 0;
-    height: 370px;
+    height: 100%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -310,22 +311,8 @@ z-index: 999;
   transition: filter .6s ease !important;
 }
 
-#projects .card .pic {
-    position: relative
-}
-
-#projects .card .pic img {
-    width: 100%;
-    object-fit: cover
-}
-
-#projects .card .h-1 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
 #projects .card .text-muted {
-    font-size: 15px
+    font-size: 15px !important
 }
 
 #projects .card:hover .text-muted {
@@ -336,21 +323,20 @@ z-index: 999;
     padding: 0 20px
 }
 
-#projects .card .content .btn {
+#btn-module{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
-    background-color: #7f2f50;
-    border-radius: 25px;
-    font-size: 12px;
-    border: none
+    background-color: #7f2f50 !important;
+    border-radius: 25px !important;
+    font-size: 12px !important;
+    border: none !important
 }
 
-#projects .card:hover .content .btn {
-    background: #fff;
-    color: #7f2f50;
-    box-shadow: #0000001a 0px 3px 5px
+#projects .card:hover #btn-module{
+    background: #fff !important;
+    color: #7f2f50 !important;
+    box-shadow: #0000001a 0px 3px 5px !important
 }
 
 /* canvas chart */
