@@ -19,6 +19,15 @@ body {
 	height: 100vh;
 }
 
+@media (max-width:750px) {
+
+    body {
+        background-size: 300% 800%;
+
+    }
+
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
