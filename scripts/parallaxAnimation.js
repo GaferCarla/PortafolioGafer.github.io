@@ -14,8 +14,7 @@ window.addEventListener('scroll', function(){
     // modifica elementos parallax del landscape
     let value = window.scrollY;
     mountain.style.top  = value * 0.2 + 'px';
-    sky.style.right = value * 0.1 + 'px';
-    sky.style.top = value * -0.2 + 'px';
+    sky.style.bottom = value * 0.01 + 'px';
     forest.style.width = 100 + '%';
     text.style.marginRight = value * 2.5 + 'px';
     text.style.marginTop = value * 0.5 + 'px';
