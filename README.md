@@ -66,12 +66,13 @@ To view the page in action, visit <a href="https://gafercarla.github.io/Portafol
 
 ```
 
+
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the <a href="https://github.com/GaferCarla/PortafolioGafer.github.io/blob/main/LICENSE">LICENSE</a> file.
 
 
-Made with :heart: by <a href="https://github.com/GaferCarla" target="_blank">Gafer</a>
+Made with :heart: by <a href="https://github.com/GaferCarla">Gafer</a>
 
 &#xa0;
 
