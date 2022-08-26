@@ -64,9 +64,6 @@ También puede ser mediante la sección de información adicional en el footer y
 
 To view the page in action, visit <a href="https://gafercarla.github.io/PortafolioGafer.github.io/index.html">here<a>.
 
-```
-
-
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the <a href="https://github.com/GaferCarla/PortafolioGafer.github.io/blob/main/LICENSE">LICENSE</a> file.
