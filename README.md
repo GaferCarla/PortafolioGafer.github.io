@@ -52,6 +52,8 @@ Añadir animaciones tipo fade in de los elmentos de la página al hacer scrollY.
 
 Incrementar todos los respositorios elaborados en el curso de forma ordenada en la página de proyectos.
 
+Hacer una versión en ingles.
+
 ## :checkered_flag: How to run ##
 
 El portafolio se compone de tres principales páginas: Home, About y Proyectos.
