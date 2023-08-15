@@ -109,7 +109,7 @@ z-index: 999;
     top:23px;
 }
 .form .left-side .top-div p{
-    font-size:18px;
+    font-size:15px;
 }
 
 .form .left-side .medium-div{
@@ -131,9 +131,9 @@ z-index: 999;
    font-size:30px;
 
 }
-.form .left-side .medium-div p{
+/*.form .left-side .medium-div p{
     font-size:18px;
-}
+}*/
 .form .left-side .icons{
     font-size:20px;
     position:relative;
